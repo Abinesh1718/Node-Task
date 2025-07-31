@@ -22,3 +22,15 @@ npm install
 
 You'll see :
 Serever Started
+
+
+API Endpoints (Sample)
+POST /api/register → Register new user
+
+POST /api/login → Login and receive JWT
+
+POST /api/tasks → Create a task (auth required)
+
+GET /api/tasks?status=completed/pending/all → Filter tasks
+
+POST /api/chats/import → Import chat via Excel (.xlsx)
